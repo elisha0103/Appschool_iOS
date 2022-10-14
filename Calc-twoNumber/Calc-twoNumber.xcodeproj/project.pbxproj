@@ -13,6 +13,8 @@
 		2C12153028F7FFA800F7D45D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C12152E28F7FFA800F7D45D /* Main.storyboard */; };
 		2C12153228F7FFAA00F7D45D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C12153128F7FFAA00F7D45D /* Assets.xcassets */; };
 		2C12153528F7FFAA00F7D45D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C12153328F7FFAA00F7D45D /* LaunchScreen.storyboard */; };
+		2C12153D28F90FFE00F7D45D /* NumberSetClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C12153C28F90FFE00F7D45D /* NumberSetClass.swift */; };
+		2C12155F28F93DBF00F7D45D /* claHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C12155E28F93DBF00F7D45D /* claHistory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		2C12153128F7FFAA00F7D45D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C12153428F7FFAA00F7D45D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C12153628F7FFAA00F7D45D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C12153C28F90FFE00F7D45D /* NumberSetClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberSetClass.swift; sourceTree = "<group>"; };
+		2C12155E28F93DBF00F7D45D /* claHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = claHistory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,8 @@
 		2C12151C28F7FFA800F7D45D = {
 			isa = PBXGroup;
 			children = (
+				2C12155E28F93DBF00F7D45D /* claHistory.swift */,
+				2C12153C28F90FFE00F7D45D /* NumberSetClass.swift */,
 				2C12152728F7FFA800F7D45D /* Calc-twoNumber */,
 				2C12152628F7FFA800F7D45D /* Products */,
 			);
@@ -140,6 +146,8 @@
 			files = (
 				2C12152D28F7FFA800F7D45D /* ViewController.swift in Sources */,
 				2C12152928F7FFA800F7D45D /* AppDelegate.swift in Sources */,
+				2C12155F28F93DBF00F7D45D /* claHistory.swift in Sources */,
+				2C12153D28F90FFE00F7D45D /* NumberSetClass.swift in Sources */,
 				2C12152B28F7FFA800F7D45D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
