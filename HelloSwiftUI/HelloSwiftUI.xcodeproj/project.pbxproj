@@ -14,6 +14,8 @@
 		2C9B6B7728FE977400BA8544 /* NewNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9B6B7628FE977400BA8544 /* NewNames.swift */; };
 		2C9B6B7928FEA13C00BA8544 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9B6B7828FEA13C00BA8544 /* TitleView.swift */; };
 		2C9B6B7B28FEA2FF00BA8544 /* TeamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9B6B7A28FEA2FF00BA8544 /* TeamView.swift */; };
+		2C9B6B7D28FF8C4800BA8544 /* MyVStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9B6B7C28FF8C4800BA8544 /* MyVStack.swift */; };
+		2C9B6B7F28FFF38B00BA8544 /* SlidverAsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9B6B7E28FFF38B00BA8544 /* SlidverAsyncImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		2C9B6B7628FE977400BA8544 /* NewNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewNames.swift; sourceTree = "<group>"; };
 		2C9B6B7828FEA13C00BA8544 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
 		2C9B6B7A28FEA2FF00BA8544 /* TeamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamView.swift; sourceTree = "<group>"; };
+		2C9B6B7C28FF8C4800BA8544 /* MyVStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyVStack.swift; sourceTree = "<group>"; };
+		2C9B6B7E28FFF38B00BA8544 /* SlidverAsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlidverAsyncImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 			children = (
 				2C9B6B6428FE4A8B00BA8544 /* HelloSwiftUIApp.swift */,
 				2C9B6B6628FE4A8B00BA8544 /* ContentView.swift */,
+				2C9B6B7E28FFF38B00BA8544 /* SlidverAsyncImage.swift */,
+				2C9B6B7C28FF8C4800BA8544 /* MyVStack.swift */,
 				2C9B6B7828FEA13C00BA8544 /* TitleView.swift */,
 				2C9B6B7A28FEA2FF00BA8544 /* TeamView.swift */,
 				2C9B6B7628FE977400BA8544 /* NewNames.swift */,
@@ -151,6 +157,8 @@
 				2C9B6B7B28FEA2FF00BA8544 /* TeamView.swift in Sources */,
 				2C9B6B6528FE4A8B00BA8544 /* HelloSwiftUIApp.swift in Sources */,
 				2C9B6B7928FEA13C00BA8544 /* TitleView.swift in Sources */,
+				2C9B6B7D28FF8C4800BA8544 /* MyVStack.swift in Sources */,
+				2C9B6B7F28FFF38B00BA8544 /* SlidverAsyncImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
