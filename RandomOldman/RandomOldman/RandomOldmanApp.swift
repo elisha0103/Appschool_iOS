@@ -11,7 +11,7 @@ import SwiftUI
 struct RandomOldmanApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentTabView().environmentObject(ResultData())
         }
     }
 }

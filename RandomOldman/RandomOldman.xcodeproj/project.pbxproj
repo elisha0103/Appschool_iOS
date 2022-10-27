@@ -7,22 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C675D822908CBDC001A7868 /* ContentTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C675D812908CBDC001A7868 /* ContentTabView.swift */; };
 		2C7D8F10290264FD00CBEC17 /* RandomOldmanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7D8F0F290264FD00CBEC17 /* RandomOldmanApp.swift */; };
 		2C7D8F12290264FD00CBEC17 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7D8F11290264FD00CBEC17 /* ContentView.swift */; };
 		2C7D8F14290264FF00CBEC17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C7D8F13290264FF00CBEC17 /* Assets.xcassets */; };
 		2C7D8F17290264FF00CBEC17 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C7D8F16290264FF00CBEC17 /* Preview Assets.xcassets */; };
 		2C7D8F1E290267F400CBEC17 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7D8F1D290267F300CBEC17 /* ButtonView.swift */; };
+		2C7D8F402906672200CBEC17 /* ResultData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7D8F3F2906672200CBEC17 /* ResultData.swift */; };
+		2C8DD6DC2907B9E0000E2A61 /* Roller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8DD6DB2907B9E0000E2A61 /* Roller.swift */; };
+		2C8DD6DE2907B9EA000E2A61 /* RollingBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8DD6DD2907B9EA000E2A61 /* RollingBoard.swift */; };
+		2C8DD6E02907B9FB000E2A61 /* SecondGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8DD6DF2907B9FB000E2A61 /* SecondGameView.swift */; };
 		34EFCDDB2902799500B7669B /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EFCDDA2902799500B7669B /* ModalView.swift */; };
+		34EFCE15290670A500B7669B /* RecentResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EFCE14290670A500B7669B /* RecentResultView.swift */; };
+		34EFCE732908EE7D00B7669B /* CalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EFCE722908EE7D00B7669B /* CalculatorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C675D812908CBDC001A7868 /* ContentTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentTabView.swift; sourceTree = "<group>"; };
 		2C7D8F0C290264FD00CBEC17 /* RandomOldman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomOldman.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C7D8F0F290264FD00CBEC17 /* RandomOldmanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomOldmanApp.swift; sourceTree = "<group>"; };
 		2C7D8F11290264FD00CBEC17 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2C7D8F13290264FF00CBEC17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C7D8F16290264FF00CBEC17 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2C7D8F1D290267F300CBEC17 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		2C7D8F3F2906672200CBEC17 /* ResultData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultData.swift; sourceTree = "<group>"; };
+		2C8DD6DB2907B9E0000E2A61 /* Roller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Roller.swift; sourceTree = "<group>"; };
+		2C8DD6DD2907B9EA000E2A61 /* RollingBoard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RollingBoard.swift; sourceTree = "<group>"; };
+		2C8DD6DF2907B9FB000E2A61 /* SecondGameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondGameView.swift; sourceTree = "<group>"; };
 		34EFCDDA2902799500B7669B /* ModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
+		34EFCE14290670A500B7669B /* RecentResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentResultView.swift; sourceTree = "<group>"; };
+		34EFCE722908EE7D00B7669B /* CalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,10 +69,17 @@
 		2C7D8F0E290264FD00CBEC17 /* RandomOldman */ = {
 			isa = PBXGroup;
 			children = (
+				34EFCE14290670A500B7669B /* RecentResultView.swift */,
 				2C7D8F0F290264FD00CBEC17 /* RandomOldmanApp.swift */,
 				2C7D8F11290264FD00CBEC17 /* ContentView.swift */,
+				34EFCE722908EE7D00B7669B /* CalculatorView.swift */,
 				2C7D8F1D290267F300CBEC17 /* ButtonView.swift */,
+				2C7D8F3F2906672200CBEC17 /* ResultData.swift */,
 				34EFCDDA2902799500B7669B /* ModalView.swift */,
+				2C8DD6DB2907B9E0000E2A61 /* Roller.swift */,
+				2C8DD6DD2907B9EA000E2A61 /* RollingBoard.swift */,
+				2C8DD6DF2907B9FB000E2A61 /* SecondGameView.swift */,
+				2C675D812908CBDC001A7868 /* ContentTabView.swift */,
 				2C7D8F13290264FF00CBEC17 /* Assets.xcassets */,
 				2C7D8F15290264FF00CBEC17 /* Preview Content */,
 			);
@@ -143,9 +164,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C8DD6DC2907B9E0000E2A61 /* Roller.swift in Sources */,
+				2C7D8F402906672200CBEC17 /* ResultData.swift in Sources */,
 				2C7D8F12290264FD00CBEC17 /* ContentView.swift in Sources */,
 				2C7D8F10290264FD00CBEC17 /* RandomOldmanApp.swift in Sources */,
+				2C8DD6E02907B9FB000E2A61 /* SecondGameView.swift in Sources */,
+				34EFCE732908EE7D00B7669B /* CalculatorView.swift in Sources */,
+				2C8DD6DE2907B9EA000E2A61 /* RollingBoard.swift in Sources */,
+				2C675D822908CBDC001A7868 /* ContentTabView.swift in Sources */,
 				34EFCDDB2902799500B7669B /* ModalView.swift in Sources */,
+				34EFCE15290670A500B7669B /* RecentResultView.swift in Sources */,
 				2C7D8F1E290267F400CBEC17 /* ButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

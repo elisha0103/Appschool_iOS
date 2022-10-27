@@ -10,19 +10,25 @@ import SwiftUI
 struct ModalView: View {
     @Environment(\.presentationMode) var presentation
     
-    @Binding var isDead: Bool  // 꽝 상태변수
-    @Binding var buttonDisabled: [Bool]  // 칼 활성/비활성 상태 배열
-    @Binding var betting: String // 배팅 내용 변수
+    @EnvironmentObject var resultData: ResultData
+    
+//    @Binding var isDead: Bool  // 꽝 상태변수
+//    @Binding var buttonDisabled: [Bool]  // 칼 활성/비활성 상태 배열
+//    @Binding var betting: String // 배팅 내용 변수
     
     var body: some View {
         VStack {
             HStack{
-                Text("\(betting)")
+                Text("\(resultData.betting)")
                     .font(.title3)
                     .multilineTextAlignment(.center)
                     .foregroundColor(.red)
                     .fontWeight(.bold)
-                Text("에 당첨되었습니다!")
+                if !resultData.betting.isEmpty{
+                    Text("에 ")
+                        .font(.title3)
+                }
+                Text("당첨되었습니다!")
                     .font(.title3)
             }
             
@@ -30,13 +36,31 @@ struct ModalView: View {
             Image("TongOUT_2")
                 .resizable()
                 .aspectRatio(contentMode: .fit)
-                .frame(width: 500, height: 500)
+                .frame(width: 200, height: 200)
             
             // 다시하기 버튼
             Button(action: {
-                isDead = false // 꽝 상태변수 초기화
-                buttonDisabled = [false, false, false, false, false, false, false] // 칼 활성/비활성 상태배열 초기화
+                
                 presentation.wrappedValue.dismiss()
+                
+                /*
+                // 내기 결과 ResultData - resultString 에 넘기기
+                // 밑의 코드는 제어적인 부분 : 뷰와 제어부를 나눠보자.  -> TODO :: ResultData Class 메서드로 만들기
+                if !resultData.betting.isEmpty {
+                    resultData.resultString.append("[통아저씨] \(resultData.betting) 당첨!")
+                } else {
+                    resultData.resultString.append("[통아저씨] 당첨!")
+                }
+                if resultData.resultString.count > 5 {
+                    resultData.resultString.removeFirst()
+                }
+                
+                resultData.isDead = false // 꽝 상태변수 초기화
+                resultData.buttonDisabled = [false, false, false, false, false, false, false] // 칼 활성/비활성 상태배열 초기화
+                resultData.betting = "" // 내기 텍스트 초기화
+                 */
+                resultData.addResult(game: "[통아저씨]", betting: resultData.betting)
+                resultData.reGame()
             }) {
                 Text("게임 다시하기")
                     .font(.title3)
