@@ -11,6 +11,7 @@
 		2C4697EF2908C00C0034FF97 /* ContextMenuDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4697EE2908C00C0034FF97 /* ContextMenuDemo.swift */; };
 		2C639CC5290A67FE004AFF81 /* DrawDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C639CC4290A67FE004AFF81 /* DrawDemo.swift */; };
 		2C639CC7290A6805004AFF81 /* PathDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C639CC6290A6805004AFF81 /* PathDemo.swift */; };
+		2C639CE7290F5018004AFF81 /* AnimationDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C639CE6290F5018004AFF81 /* AnimationDemo.swift */; };
 		2C8DD6AE29076EF0000E2A61 /* ListDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8DD6AD29076EF0000E2A61 /* ListDemo.swift */; };
 		2C9B6B6528FE4A8B00BA8544 /* HelloSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9B6B6428FE4A8B00BA8544 /* HelloSwiftUIApp.swift */; };
 		2C9B6B6728FE4A8B00BA8544 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9B6B6628FE4A8B00BA8544 /* ContentView.swift */; };
@@ -28,6 +29,7 @@
 		2C4697EE2908C00C0034FF97 /* ContextMenuDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenuDemo.swift; sourceTree = "<group>"; };
 		2C639CC4290A67FE004AFF81 /* DrawDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawDemo.swift; sourceTree = "<group>"; };
 		2C639CC6290A6805004AFF81 /* PathDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PathDemo.swift; sourceTree = "<group>"; };
+		2C639CE6290F5018004AFF81 /* AnimationDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationDemo.swift; sourceTree = "<group>"; };
 		2C8DD6AD29076EF0000E2A61 /* ListDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDemo.swift; sourceTree = "<group>"; };
 		2C9B6B6128FE4A8B00BA8544 /* HelloSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C9B6B6428FE4A8B00BA8544 /* HelloSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloSwiftUIApp.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 				2C639CC6290A6805004AFF81 /* PathDemo.swift */,
 				2C4697EE2908C00C0034FF97 /* ContextMenuDemo.swift */,
 				2C9B6B7A28FEA2FF00BA8544 /* TeamView.swift */,
+				2C639CE6290F5018004AFF81 /* AnimationDemo.swift */,
 				2C9B6B7628FE977400BA8544 /* NewNames.swift */,
 				2C639CC4290A67FE004AFF81 /* DrawDemo.swift */,
 				2C9B6B6828FE4A8D00BA8544 /* Assets.xcassets */,
@@ -167,6 +170,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C639CE7290F5018004AFF81 /* AnimationDemo.swift in Sources */,
 				2C639CC5290A67FE004AFF81 /* DrawDemo.swift in Sources */,
 				2C9B6B7728FE977400BA8544 /* NewNames.swift in Sources */,
 				2C9B6B6728FE4A8B00BA8544 /* ContentView.swift in Sources */,
