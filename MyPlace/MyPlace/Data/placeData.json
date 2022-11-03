@@ -1,0 +1,46 @@
+[{
+        "id": "1",
+        "name": "스타벅스 강남점",
+        "imageUrl": "https://sui.ssgcdn.com/ui/common/img/sns/mnstarbucks.png",
+        "siteUrl": "https://www.starbucks.co.kr/",
+        "lat": 37.503165,
+        "long": 127.025563,
+        "description": "아이스아메리카노 4100원, 시럽추가 500원, 앱에 충전해서쓰면 시럽추가 무료\n톨사이즈 기준 4100원으로 알고있는데 요즘 투썸만 가서... 스벅 안간지 한 4개월정도 된 것 같아요...ㅎ"
+    },
+    {
+        "id": "2",
+        "name": "할리스 합정점",
+        "imageUrl": "https://t1.daumcdn.net/cfile/tistory/2460CE38525ABC0D1F",
+        "siteUrl": "https://www.hollys.co.kr/",
+        "lat": 37.548492,
+        "long": 126.913323,
+        "description": "할리스는 역시 바닐라딜라이트"
+    },
+    {
+        "id": "3",
+        "name": "카페 노티드",
+        "imageUrl": "https://mp-seoul-image-production-s3.mangoplate.com/576647_1579647115936001.jpg",
+        "siteUrl": "https://www.instagram.com/cafeknotted/",
+        "lat": 37.509048,
+        "long": 127.110679,
+        "description": "민초를 좋아한다면 민초맛 강력추천, 카약잼도 맛있음\n유명하지만 기대할 맛은 아님..."
+    },
+    {
+        "id": "4",
+        "name": "서울시청",
+        "imageUrl": "https://func.seoul.go.kr/upload/mediahub/2022/05/gWMhmmxerbQENlZZRQcFwnZqmFfKXoCL.png",
+        "siteUrl": "https://www.seoul.go.kr/main/index.jsp",
+        "lat": 37.566713,
+        "long": 126.978428,
+        "description": "여기는 서울 시청입니다."
+    },
+    {
+        "id": "5",
+        "name": "멋쟁이사자처럼",
+        "imageUrl": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https:%2F%2Fblog.kakaocdn.net%2Fdn%2FCMiJA%2Fbtq2BDv5tjW%2FBUPkwyuk0Ib082b8j8QAwK%2Fimg.png",
+        "siteUrl": "http://likelion.net",
+        "lat": 37.570962,
+        "long": 126.978928,
+        "description": "우리의 배움터"
+    }
+]
