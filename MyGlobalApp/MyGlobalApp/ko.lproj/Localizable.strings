@@ -1,0 +1,17 @@
+/* 
+  Localizable.strings
+  MyGlobalApp
+
+  Created by 진태영 on 2022/11/14.
+  
+*/
+
+"Hello, World!" = "만나서 반가워요!";
+"Wakanda" = "와칸다";
+"England" = "영국";
+"Japan" = "일본";
+"USA" = "미국";
+"Germany" = "독일";
+"Wales" = "웨일즈";
+"Total %lld countries" = "모두 %lld 개의 국가";
+
