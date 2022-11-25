@@ -11,7 +11,6 @@
 		2C46027A292CABBE00DEC92A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C460279292CABBE00DEC92A /* ContentView.swift */; };
 		2C46027C292CABC000DEC92A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C46027B292CABC000DEC92A /* Assets.xcassets */; };
 		2C46027F292CABC000DEC92A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C46027E292CABC000DEC92A /* Preview Assets.xcassets */; };
-		2C460286292CAC5300DEC92A /* loadJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C460285292CAC5300DEC92A /* loadJson.swift */; };
 		2C460288292CAC6F00DEC92A /* CovidCenters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C460287292CAC6F00DEC92A /* CovidCenters.swift */; };
 		2C46028A292CACCE00DEC92A /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C460289292CACCE00DEC92A /* WebService.swift */; };
 /* End PBXBuildFile section */
@@ -22,7 +21,6 @@
 		2C460279292CABBE00DEC92A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2C46027B292CABC000DEC92A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C46027E292CABC000DEC92A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		2C460285292CAC5300DEC92A /* loadJson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loadJson.swift; sourceTree = "<group>"; };
 		2C460287292CAC6F00DEC92A /* CovidCenters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CovidCenters.swift; sourceTree = "<group>"; };
 		2C460289292CACCE00DEC92A /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -59,7 +57,6 @@
 			children = (
 				2C460277292CABBE00DEC92A /* CovidCenterApp.swift */,
 				2C460279292CABBE00DEC92A /* ContentView.swift */,
-				2C460285292CAC5300DEC92A /* loadJson.swift */,
 				2C460287292CAC6F00DEC92A /* CovidCenters.swift */,
 				2C460289292CACCE00DEC92A /* WebService.swift */,
 				2C46027B292CABC000DEC92A /* Assets.xcassets */,
@@ -148,7 +145,6 @@
 			files = (
 				2C46027A292CABBE00DEC92A /* ContentView.swift in Sources */,
 				2C46028A292CACCE00DEC92A /* WebService.swift in Sources */,
-				2C460286292CAC5300DEC92A /* loadJson.swift in Sources */,
 				2C460288292CAC6F00DEC92A /* CovidCenters.swift in Sources */,
 				2C460278292CABBE00DEC92A /* CovidCenterApp.swift in Sources */,
 			);

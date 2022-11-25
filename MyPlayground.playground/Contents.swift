@@ -3,7 +3,7 @@ import Foundation
 
 PlaygroundPage.current.needsIndefiniteExecution = true
 
-struct NorthInformation: Codable {
+struct NKData: Codable {
 
   var pageNo     : Int?     = nil
   var resultCode : String?  = nil
@@ -114,7 +114,7 @@ let task = URLSession.shared.dataTask(with: url) { (data, response, error) in
     }
     
     
-    let north: NorthInformation = loadJson(data: data)
+    let north: NKData = loadJson(data: data)
     if let person = north.person {
         for mem in person{
             let member = mem
