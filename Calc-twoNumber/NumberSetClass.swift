@@ -6,6 +6,7 @@
 //
 import Foundation
 
+// UIKit을 이용한 구조체
 struct NumberSet{
     let number1: Float  // 첫번째 피연산자
     let number2: Float  // 두번째 피연산자
