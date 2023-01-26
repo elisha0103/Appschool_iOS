@@ -7,69 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6663A5D029800EA30099D352 /* CustomComponentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6663A5CF29800EA30099D352 /* CustomComponentApp.swift */; };
-		6663A5D229800EA30099D352 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6663A5D129800EA30099D352 /* ContentView.swift */; };
-		6663A5D429800EA30099D352 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6663A5D329800EA30099D352 /* Assets.xcassets */; };
-		6663A5D729800EA30099D352 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6663A5D629800EA30099D352 /* Preview Assets.xcassets */; };
-		6663A5E129800EA40099D352 /* CustomComponentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6663A5E029800EA40099D352 /* CustomComponentTests.swift */; };
-		6663A5EB29800EA40099D352 /* CustomComponentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6663A5EA29800EA40099D352 /* CustomComponentUITests.swift */; };
-		6663A5ED29800EA40099D352 /* CustomComponentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6663A5EC29800EA40099D352 /* CustomComponentUITestsLaunchTests.swift */; };
-		6663A5FA29800EBF0099D352 /* CustomAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6663A5F929800EBF0099D352 /* CustomAlert.swift */; };
-		6663A5FC29800F200099D352 /* CustomAlertModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6663A5FB29800F200099D352 /* CustomAlertModifier.swift */; };
-		6663A600298174090099D352 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6663A5FF298174090099D352 /* CustomTextField.swift */; };
-		6663A602298174930099D352 /* ReactiveButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6663A601298174930099D352 /* ReactiveButtonStyle.swift */; };
+		6663A610298176040099D352 /* GoogleSignInProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6663A60F298176040099D352 /* GoogleSignInProjectApp.swift */; };
+		6663A612298176040099D352 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6663A611298176040099D352 /* ContentView.swift */; };
+		6663A614298176050099D352 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6663A613298176050099D352 /* Assets.xcassets */; };
+		6663A617298176050099D352 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6663A616298176050099D352 /* Preview Assets.xcassets */; };
+		6663A621298176050099D352 /* GoogleSignInProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6663A620298176050099D352 /* GoogleSignInProjectTests.swift */; };
+		6663A62B298176050099D352 /* GoogleSignInProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6663A62A298176050099D352 /* GoogleSignInProjectUITests.swift */; };
+		6663A62D298176050099D352 /* GoogleSignInProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6663A62C298176050099D352 /* GoogleSignInProjectUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6663A5DD29800EA40099D352 /* PBXContainerItemProxy */ = {
+		6663A61D298176050099D352 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6663A5C429800EA30099D352 /* Project object */;
+			containerPortal = 6663A604298176040099D352 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6663A5CB29800EA30099D352;
-			remoteInfo = CustomComponent;
+			remoteGlobalIDString = 6663A60B298176040099D352;
+			remoteInfo = GoogleSignInProject;
 		};
-		6663A5E729800EA40099D352 /* PBXContainerItemProxy */ = {
+		6663A627298176050099D352 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6663A5C429800EA30099D352 /* Project object */;
+			containerPortal = 6663A604298176040099D352 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6663A5CB29800EA30099D352;
-			remoteInfo = CustomComponent;
+			remoteGlobalIDString = 6663A60B298176040099D352;
+			remoteInfo = GoogleSignInProject;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6663A5CC29800EA30099D352 /* CustomComponent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomComponent.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6663A5CF29800EA30099D352 /* CustomComponentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomComponentApp.swift; sourceTree = "<group>"; };
-		6663A5D129800EA30099D352 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		6663A5D329800EA30099D352 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6663A5D629800EA30099D352 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		6663A5DC29800EA40099D352 /* CustomComponentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomComponentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6663A5E029800EA40099D352 /* CustomComponentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomComponentTests.swift; sourceTree = "<group>"; };
-		6663A5E629800EA40099D352 /* CustomComponentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomComponentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6663A5EA29800EA40099D352 /* CustomComponentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomComponentUITests.swift; sourceTree = "<group>"; };
-		6663A5EC29800EA40099D352 /* CustomComponentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomComponentUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		6663A5F929800EBF0099D352 /* CustomAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlert.swift; sourceTree = "<group>"; };
-		6663A5FB29800F200099D352 /* CustomAlertModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertModifier.swift; sourceTree = "<group>"; };
-		6663A5FF298174090099D352 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
-		6663A601298174930099D352 /* ReactiveButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactiveButtonStyle.swift; sourceTree = "<group>"; };
+		6663A60C298176040099D352 /* GoogleSignInProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleSignInProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6663A60F298176040099D352 /* GoogleSignInProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleSignInProjectApp.swift; sourceTree = "<group>"; };
+		6663A611298176040099D352 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6663A613298176050099D352 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6663A616298176050099D352 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6663A61C298176050099D352 /* GoogleSignInProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleSignInProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6663A620298176050099D352 /* GoogleSignInProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleSignInProjectTests.swift; sourceTree = "<group>"; };
+		6663A626298176050099D352 /* GoogleSignInProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleSignInProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6663A62A298176050099D352 /* GoogleSignInProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleSignInProjectUITests.swift; sourceTree = "<group>"; };
+		6663A62C298176050099D352 /* GoogleSignInProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleSignInProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6663A5C929800EA30099D352 /* Frameworks */ = {
+		6663A609298176040099D352 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6663A5D929800EA40099D352 /* Frameworks */ = {
+		6663A619298176050099D352 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6663A5E329800EA40099D352 /* Frameworks */ = {
+		6663A623298176050099D352 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -79,146 +71,142 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6663A5C329800EA30099D352 = {
+		6663A603298176040099D352 = {
 			isa = PBXGroup;
 			children = (
-				6663A5CE29800EA30099D352 /* CustomComponent */,
-				6663A5DF29800EA40099D352 /* CustomComponentTests */,
-				6663A5E929800EA40099D352 /* CustomComponentUITests */,
-				6663A5CD29800EA30099D352 /* Products */,
+				6663A60E298176040099D352 /* GoogleSignInProject */,
+				6663A61F298176050099D352 /* GoogleSignInProjectTests */,
+				6663A629298176050099D352 /* GoogleSignInProjectUITests */,
+				6663A60D298176040099D352 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		6663A5CD29800EA30099D352 /* Products */ = {
+		6663A60D298176040099D352 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6663A5CC29800EA30099D352 /* CustomComponent.app */,
-				6663A5DC29800EA40099D352 /* CustomComponentTests.xctest */,
-				6663A5E629800EA40099D352 /* CustomComponentUITests.xctest */,
+				6663A60C298176040099D352 /* GoogleSignInProject.app */,
+				6663A61C298176050099D352 /* GoogleSignInProjectTests.xctest */,
+				6663A626298176050099D352 /* GoogleSignInProjectUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6663A5CE29800EA30099D352 /* CustomComponent */ = {
+		6663A60E298176040099D352 /* GoogleSignInProject */ = {
 			isa = PBXGroup;
 			children = (
-				6663A5CF29800EA30099D352 /* CustomComponentApp.swift */,
-				6663A5D129800EA30099D352 /* ContentView.swift */,
-				6663A601298174930099D352 /* ReactiveButtonStyle.swift */,
-				6663A5FF298174090099D352 /* CustomTextField.swift */,
-				6663A5F929800EBF0099D352 /* CustomAlert.swift */,
-				6663A5FB29800F200099D352 /* CustomAlertModifier.swift */,
-				6663A5D329800EA30099D352 /* Assets.xcassets */,
-				6663A5D529800EA30099D352 /* Preview Content */,
+				6663A60F298176040099D352 /* GoogleSignInProjectApp.swift */,
+				6663A611298176040099D352 /* ContentView.swift */,
+				6663A613298176050099D352 /* Assets.xcassets */,
+				6663A615298176050099D352 /* Preview Content */,
 			);
-			path = CustomComponent;
+			path = GoogleSignInProject;
 			sourceTree = "<group>";
 		};
-		6663A5D529800EA30099D352 /* Preview Content */ = {
+		6663A615298176050099D352 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				6663A5D629800EA30099D352 /* Preview Assets.xcassets */,
+				6663A616298176050099D352 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		6663A5DF29800EA40099D352 /* CustomComponentTests */ = {
+		6663A61F298176050099D352 /* GoogleSignInProjectTests */ = {
 			isa = PBXGroup;
 			children = (
-				6663A5E029800EA40099D352 /* CustomComponentTests.swift */,
+				6663A620298176050099D352 /* GoogleSignInProjectTests.swift */,
 			);
-			path = CustomComponentTests;
+			path = GoogleSignInProjectTests;
 			sourceTree = "<group>";
 		};
-		6663A5E929800EA40099D352 /* CustomComponentUITests */ = {
+		6663A629298176050099D352 /* GoogleSignInProjectUITests */ = {
 			isa = PBXGroup;
 			children = (
-				6663A5EA29800EA40099D352 /* CustomComponentUITests.swift */,
-				6663A5EC29800EA40099D352 /* CustomComponentUITestsLaunchTests.swift */,
+				6663A62A298176050099D352 /* GoogleSignInProjectUITests.swift */,
+				6663A62C298176050099D352 /* GoogleSignInProjectUITestsLaunchTests.swift */,
 			);
-			path = CustomComponentUITests;
+			path = GoogleSignInProjectUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6663A5CB29800EA30099D352 /* CustomComponent */ = {
+		6663A60B298176040099D352 /* GoogleSignInProject */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6663A5F029800EA40099D352 /* Build configuration list for PBXNativeTarget "CustomComponent" */;
+			buildConfigurationList = 6663A630298176050099D352 /* Build configuration list for PBXNativeTarget "GoogleSignInProject" */;
 			buildPhases = (
-				6663A5C829800EA30099D352 /* Sources */,
-				6663A5C929800EA30099D352 /* Frameworks */,
-				6663A5CA29800EA30099D352 /* Resources */,
+				6663A608298176040099D352 /* Sources */,
+				6663A609298176040099D352 /* Frameworks */,
+				6663A60A298176040099D352 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = CustomComponent;
-			productName = CustomComponent;
-			productReference = 6663A5CC29800EA30099D352 /* CustomComponent.app */;
+			name = GoogleSignInProject;
+			productName = GoogleSignInProject;
+			productReference = 6663A60C298176040099D352 /* GoogleSignInProject.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6663A5DB29800EA40099D352 /* CustomComponentTests */ = {
+		6663A61B298176050099D352 /* GoogleSignInProjectTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6663A5F329800EA40099D352 /* Build configuration list for PBXNativeTarget "CustomComponentTests" */;
+			buildConfigurationList = 6663A633298176050099D352 /* Build configuration list for PBXNativeTarget "GoogleSignInProjectTests" */;
 			buildPhases = (
-				6663A5D829800EA40099D352 /* Sources */,
-				6663A5D929800EA40099D352 /* Frameworks */,
-				6663A5DA29800EA40099D352 /* Resources */,
+				6663A618298176050099D352 /* Sources */,
+				6663A619298176050099D352 /* Frameworks */,
+				6663A61A298176050099D352 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6663A5DE29800EA40099D352 /* PBXTargetDependency */,
+				6663A61E298176050099D352 /* PBXTargetDependency */,
 			);
-			name = CustomComponentTests;
-			productName = CustomComponentTests;
-			productReference = 6663A5DC29800EA40099D352 /* CustomComponentTests.xctest */;
+			name = GoogleSignInProjectTests;
+			productName = GoogleSignInProjectTests;
+			productReference = 6663A61C298176050099D352 /* GoogleSignInProjectTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		6663A5E529800EA40099D352 /* CustomComponentUITests */ = {
+		6663A625298176050099D352 /* GoogleSignInProjectUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6663A5F629800EA40099D352 /* Build configuration list for PBXNativeTarget "CustomComponentUITests" */;
+			buildConfigurationList = 6663A636298176050099D352 /* Build configuration list for PBXNativeTarget "GoogleSignInProjectUITests" */;
 			buildPhases = (
-				6663A5E229800EA40099D352 /* Sources */,
-				6663A5E329800EA40099D352 /* Frameworks */,
-				6663A5E429800EA40099D352 /* Resources */,
+				6663A622298176050099D352 /* Sources */,
+				6663A623298176050099D352 /* Frameworks */,
+				6663A624298176050099D352 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6663A5E829800EA40099D352 /* PBXTargetDependency */,
+				6663A628298176050099D352 /* PBXTargetDependency */,
 			);
-			name = CustomComponentUITests;
-			productName = CustomComponentUITests;
-			productReference = 6663A5E629800EA40099D352 /* CustomComponentUITests.xctest */;
+			name = GoogleSignInProjectUITests;
+			productName = GoogleSignInProjectUITests;
+			productReference = 6663A626298176050099D352 /* GoogleSignInProjectUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		6663A5C429800EA30099D352 /* Project object */ = {
+		6663A604298176040099D352 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					6663A5CB29800EA30099D352 = {
+					6663A60B298176040099D352 = {
 						CreatedOnToolsVersion = 14.2;
 					};
-					6663A5DB29800EA40099D352 = {
+					6663A61B298176050099D352 = {
 						CreatedOnToolsVersion = 14.2;
-						TestTargetID = 6663A5CB29800EA30099D352;
+						TestTargetID = 6663A60B298176040099D352;
 					};
-					6663A5E529800EA40099D352 = {
+					6663A625298176050099D352 = {
 						CreatedOnToolsVersion = 14.2;
-						TestTargetID = 6663A5CB29800EA30099D352;
+						TestTargetID = 6663A60B298176040099D352;
 					};
 				};
 			};
-			buildConfigurationList = 6663A5C729800EA30099D352 /* Build configuration list for PBXProject "CustomComponent" */;
+			buildConfigurationList = 6663A607298176040099D352 /* Build configuration list for PBXProject "GoogleSignInProject" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -226,36 +214,36 @@
 				en,
 				Base,
 			);
-			mainGroup = 6663A5C329800EA30099D352;
-			productRefGroup = 6663A5CD29800EA30099D352 /* Products */;
+			mainGroup = 6663A603298176040099D352;
+			productRefGroup = 6663A60D298176040099D352 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6663A5CB29800EA30099D352 /* CustomComponent */,
-				6663A5DB29800EA40099D352 /* CustomComponentTests */,
-				6663A5E529800EA40099D352 /* CustomComponentUITests */,
+				6663A60B298176040099D352 /* GoogleSignInProject */,
+				6663A61B298176050099D352 /* GoogleSignInProjectTests */,
+				6663A625298176050099D352 /* GoogleSignInProjectUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6663A5CA29800EA30099D352 /* Resources */ = {
+		6663A60A298176040099D352 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6663A5D729800EA30099D352 /* Preview Assets.xcassets in Resources */,
-				6663A5D429800EA30099D352 /* Assets.xcassets in Resources */,
+				6663A617298176050099D352 /* Preview Assets.xcassets in Resources */,
+				6663A614298176050099D352 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6663A5DA29800EA40099D352 /* Resources */ = {
+		6663A61A298176050099D352 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6663A5E429800EA40099D352 /* Resources */ = {
+		6663A624298176050099D352 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -265,53 +253,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6663A5C829800EA30099D352 /* Sources */ = {
+		6663A608298176040099D352 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6663A602298174930099D352 /* ReactiveButtonStyle.swift in Sources */,
-				6663A5FA29800EBF0099D352 /* CustomAlert.swift in Sources */,
-				6663A5D229800EA30099D352 /* ContentView.swift in Sources */,
-				6663A5FC29800F200099D352 /* CustomAlertModifier.swift in Sources */,
-				6663A5D029800EA30099D352 /* CustomComponentApp.swift in Sources */,
-				6663A600298174090099D352 /* CustomTextField.swift in Sources */,
+				6663A612298176040099D352 /* ContentView.swift in Sources */,
+				6663A610298176040099D352 /* GoogleSignInProjectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6663A5D829800EA40099D352 /* Sources */ = {
+		6663A618298176050099D352 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6663A5E129800EA40099D352 /* CustomComponentTests.swift in Sources */,
+				6663A621298176050099D352 /* GoogleSignInProjectTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6663A5E229800EA40099D352 /* Sources */ = {
+		6663A622298176050099D352 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6663A5EB29800EA40099D352 /* CustomComponentUITests.swift in Sources */,
-				6663A5ED29800EA40099D352 /* CustomComponentUITestsLaunchTests.swift in Sources */,
+				6663A62B298176050099D352 /* GoogleSignInProjectUITests.swift in Sources */,
+				6663A62D298176050099D352 /* GoogleSignInProjectUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6663A5DE29800EA40099D352 /* PBXTargetDependency */ = {
+		6663A61E298176050099D352 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6663A5CB29800EA30099D352 /* CustomComponent */;
-			targetProxy = 6663A5DD29800EA40099D352 /* PBXContainerItemProxy */;
+			target = 6663A60B298176040099D352 /* GoogleSignInProject */;
+			targetProxy = 6663A61D298176050099D352 /* PBXContainerItemProxy */;
 		};
-		6663A5E829800EA40099D352 /* PBXTargetDependency */ = {
+		6663A628298176050099D352 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6663A5CB29800EA30099D352 /* CustomComponent */;
-			targetProxy = 6663A5E729800EA40099D352 /* PBXContainerItemProxy */;
+			target = 6663A60B298176040099D352 /* GoogleSignInProject */;
+			targetProxy = 6663A627298176050099D352 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		6663A5EE29800EA40099D352 /* Debug */ = {
+		6663A62E298176050099D352 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -371,7 +355,7 @@
 			};
 			name = Debug;
 		};
-		6663A5EF29800EA40099D352 /* Release */ = {
+		6663A62F298176050099D352 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -425,14 +409,14 @@
 			};
 			name = Release;
 		};
-		6663A5F129800EA40099D352 /* Debug */ = {
+		6663A631298176050099D352 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CustomComponent/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"GoogleSignInProject/Preview Content\"";
 				DEVELOPMENT_TEAM = RF42434X35;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -446,7 +430,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.bo.CustomComponent;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Taeyoung.GoogleSignInProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -454,14 +438,14 @@
 			};
 			name = Debug;
 		};
-		6663A5F229800EA40099D352 /* Release */ = {
+		6663A632298176050099D352 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CustomComponent/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"GoogleSignInProject/Preview Content\"";
 				DEVELOPMENT_TEAM = RF42434X35;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -475,7 +459,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.bo.CustomComponent;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Taeyoung.GoogleSignInProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -483,7 +467,7 @@
 			};
 			name = Release;
 		};
-		6663A5F429800EA40099D352 /* Debug */ = {
+		6663A634298176050099D352 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -494,16 +478,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.bo.CustomComponentTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Taeyoung.GoogleSignInProjectTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomComponent.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CustomComponent";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoogleSignInProject.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GoogleSignInProject";
 			};
 			name = Debug;
 		};
-		6663A5F529800EA40099D352 /* Release */ = {
+		6663A635298176050099D352 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -514,16 +498,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.bo.CustomComponentTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Taeyoung.GoogleSignInProjectTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomComponent.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CustomComponent";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoogleSignInProject.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GoogleSignInProject";
 			};
 			name = Release;
 		};
-		6663A5F729800EA40099D352 /* Debug */ = {
+		6663A637298176050099D352 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -532,16 +516,16 @@
 				DEVELOPMENT_TEAM = RF42434X35;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.bo.CustomComponentUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Taeyoung.GoogleSignInProjectUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CustomComponent;
+				TEST_TARGET_NAME = GoogleSignInProject;
 			};
 			name = Debug;
 		};
-		6663A5F829800EA40099D352 /* Release */ = {
+		6663A638298176050099D352 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -550,55 +534,55 @@
 				DEVELOPMENT_TEAM = RF42434X35;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.bo.CustomComponentUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Taeyoung.GoogleSignInProjectUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CustomComponent;
+				TEST_TARGET_NAME = GoogleSignInProject;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6663A5C729800EA30099D352 /* Build configuration list for PBXProject "CustomComponent" */ = {
+		6663A607298176040099D352 /* Build configuration list for PBXProject "GoogleSignInProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6663A5EE29800EA40099D352 /* Debug */,
-				6663A5EF29800EA40099D352 /* Release */,
+				6663A62E298176050099D352 /* Debug */,
+				6663A62F298176050099D352 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6663A5F029800EA40099D352 /* Build configuration list for PBXNativeTarget "CustomComponent" */ = {
+		6663A630298176050099D352 /* Build configuration list for PBXNativeTarget "GoogleSignInProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6663A5F129800EA40099D352 /* Debug */,
-				6663A5F229800EA40099D352 /* Release */,
+				6663A631298176050099D352 /* Debug */,
+				6663A632298176050099D352 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6663A5F329800EA40099D352 /* Build configuration list for PBXNativeTarget "CustomComponentTests" */ = {
+		6663A633298176050099D352 /* Build configuration list for PBXNativeTarget "GoogleSignInProjectTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6663A5F429800EA40099D352 /* Debug */,
-				6663A5F529800EA40099D352 /* Release */,
+				6663A634298176050099D352 /* Debug */,
+				6663A635298176050099D352 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6663A5F629800EA40099D352 /* Build configuration list for PBXNativeTarget "CustomComponentUITests" */ = {
+		6663A636298176050099D352 /* Build configuration list for PBXNativeTarget "GoogleSignInProjectUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6663A5F729800EA40099D352 /* Debug */,
-				6663A5F829800EA40099D352 /* Release */,
+				6663A637298176050099D352 /* Debug */,
+				6663A638298176050099D352 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 6663A5C429800EA30099D352 /* Project object */;
+	rootObject = 6663A604298176040099D352 /* Project object */;
 }
