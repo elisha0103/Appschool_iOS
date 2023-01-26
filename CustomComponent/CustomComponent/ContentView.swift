@@ -9,9 +9,15 @@ import SwiftUI
 
 struct ContentView: View {
     @State private var showsCustomAlert = false
+    @State private var text: String = ""
 
     var body: some View {
         VStack {
+            CustomTextField(
+              text: $text,
+              placeholder: "플레이스 홀더",
+              maximumCount: 5)
+
             Button(action: { showsCustomAlert.toggle() }) {
               Text("커스텀 Alert 진행시켜!")
                 .foregroundColor(.cyan)
