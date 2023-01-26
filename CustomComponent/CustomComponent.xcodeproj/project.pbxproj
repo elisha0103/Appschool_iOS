@@ -16,8 +16,6 @@
 		6663A5ED29800EA40099D352 /* CustomComponentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6663A5EC29800EA40099D352 /* CustomComponentUITestsLaunchTests.swift */; };
 		6663A5FA29800EBF0099D352 /* CustomAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6663A5F929800EBF0099D352 /* CustomAlert.swift */; };
 		6663A5FC29800F200099D352 /* CustomAlertModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6663A5FB29800F200099D352 /* CustomAlertModifier.swift */; };
-		6663A600298174090099D352 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6663A5FF298174090099D352 /* CustomTextField.swift */; };
-		6663A602298174930099D352 /* ReactiveButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6663A601298174930099D352 /* ReactiveButtonStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,8 +48,6 @@
 		6663A5EC29800EA40099D352 /* CustomComponentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomComponentUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		6663A5F929800EBF0099D352 /* CustomAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlert.swift; sourceTree = "<group>"; };
 		6663A5FB29800F200099D352 /* CustomAlertModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertModifier.swift; sourceTree = "<group>"; };
-		6663A5FF298174090099D352 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
-		6663A601298174930099D352 /* ReactiveButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactiveButtonStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,8 +100,6 @@
 			children = (
 				6663A5CF29800EA30099D352 /* CustomComponentApp.swift */,
 				6663A5D129800EA30099D352 /* ContentView.swift */,
-				6663A601298174930099D352 /* ReactiveButtonStyle.swift */,
-				6663A5FF298174090099D352 /* CustomTextField.swift */,
 				6663A5F929800EBF0099D352 /* CustomAlert.swift */,
 				6663A5FB29800F200099D352 /* CustomAlertModifier.swift */,
 				6663A5D329800EA30099D352 /* Assets.xcassets */,
@@ -269,12 +263,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6663A602298174930099D352 /* ReactiveButtonStyle.swift in Sources */,
 				6663A5FA29800EBF0099D352 /* CustomAlert.swift in Sources */,
 				6663A5D229800EA30099D352 /* ContentView.swift in Sources */,
 				6663A5FC29800F200099D352 /* CustomAlertModifier.swift in Sources */,
 				6663A5D029800EA30099D352 /* CustomComponentApp.swift in Sources */,
-				6663A600298174090099D352 /* CustomTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
