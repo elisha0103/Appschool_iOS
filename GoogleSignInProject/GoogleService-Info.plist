@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>894501805565-jjd6krhr4llagln8thk9mlt0gi8s22d0.apps.googleusercontent.com</string>
+	<string>894501805565-fr455qa2n8lguk9rgicialrgo9jk9ein.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.894501805565-jjd6krhr4llagln8thk9mlt0gi8s22d0</string>
+	<string>com.googleusercontent.apps.894501805565-fr455qa2n8lguk9rgicialrgo9jk9ein</string>
 	<key>API_KEY</key>
 	<string>AIzaSyChasI3dksjDHgVGU-ueWmzkl2ohYjFkPI</string>
 	<key>GCM_SENDER_ID</key>
@@ -13,7 +13,7 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.Taeyoung.RealtimeFirebase</string>
+	<string>com.Taeyoung.GoogleSignInProject</string>
 	<key>PROJECT_ID</key>
 	<string>realtimedatabase-8eece</string>
 	<key>STORAGE_BUCKET</key>
@@ -29,7 +29,7 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:894501805565:ios:077f141710fa4cb65b4d94</string>
+	<string>1:894501805565:ios:e845016c6a3463775b4d94</string>
 	<key>DATABASE_URL</key>
 	<string>https://realtimedatabase-8eece-default-rtdb.firebaseio.com</string>
 </dict>

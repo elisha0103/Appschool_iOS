@@ -6,14 +6,23 @@
 //
 
 import SwiftUI
+import FirebaseAuth
 
 struct ContentView: View {
+    @EnvironmentObject var authenticationViewModel: AuthenticationViewModel
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            if authenticationViewModel.signState == .signIn {
+                MainView()
+            } else {
+                LoginView()
+            }
+        }
+        .onAppear {
+            if Auth.auth().currentUser != nil {
+                authenticationViewModel.signState = .signIn
+            }
         }
         .padding()
     }
@@ -22,5 +31,6 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .environmentObject(AuthenticationViewModel())
     }
 }
