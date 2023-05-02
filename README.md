@@ -1,5 +1,5 @@
 # Appschool_iOS
-<br/>
+
 ## SwiftUI 학습 목록
 - AreaToCard: 애니메이션 활용 예제
 - AsyncCarData: URLSession 네트워크 비동기 처리 예제
@@ -34,12 +34,14 @@
 - WebMapDemo: WebView와 MapKit을 활용한 예제
 - randomNumber: 슬라이더를 활용한 최소, 최대 숫자 범위 내 랜덤 숫자 출력 예제
 - shortpingMVP2: MVP shortping MVP 프로젝트
+
 <br/>
 
 ## UIKit 학습 목록
 - Calc-twoNumber: UIKit을 활용한 계산기 예제
 
 <br/>
+
 ## 2022. 09 ~ 2023. 02 멋쟁이사자처럼 앱스쿨 1기
 - Swift 문법 및 iOS 생태계의 이해하여 원하는 비즈니스 로직을 구현
 - 애자일 개발 방법론을 적극 활용하고 팀 단위의 성장을 주도적으로 리드
