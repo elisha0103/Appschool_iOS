@@ -107,7 +107,7 @@ class CarStore: ObservableObject {
             "name": car.name,
             "description": car.description,
             "isHybrid": car.isHybrid
-        ])
+        ] as [String : Any])
     }
     
     func deleteCar(key: String) {
