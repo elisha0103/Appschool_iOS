@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @StateObject var carStore: CarStore = CarStore()
+    @EnvironmentObject var carStore: CarStore
     
     var body: some View {
         NavigationStack {
@@ -34,11 +34,15 @@ struct ContentView: View {
                 )
                 
             }
-        }.onAppear {
+        .onAppear {
+            print("appear")
             carStore.listenToRealtimeDatabase()
+            print("carStore.count: \(carStore.cars.count)")
         }
         .onDisappear {
+            print("disappear")
             carStore.stopListening()
+        }
         }
     }
     

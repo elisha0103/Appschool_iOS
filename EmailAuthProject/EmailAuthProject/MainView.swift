@@ -13,11 +13,11 @@ struct MainView: View {
     var body: some View {
         VStack {
             Text("로그인 완료")
-//            Button {
-//                viewmodel.signout()
-//            } label: {
-//                Text("로그아웃")
-//            }
+            Button {
+                viewmodel.signout()
+            } label: {
+                Text("로그아웃")
+            }
 
         }
         

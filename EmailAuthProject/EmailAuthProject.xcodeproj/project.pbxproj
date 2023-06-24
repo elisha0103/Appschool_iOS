@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		666E29BC2A46CAB700575467 /* KakaoSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 666E29BB2A46CAB700575467 /* KakaoSDK */; };
+		666E29BE2A46CAB700575467 /* KakaoSDKAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 666E29BD2A46CAB700575467 /* KakaoSDKAuth */; };
+		666E29C02A46CAB700575467 /* KakaoSDKCommon in Frameworks */ = {isa = PBXBuildFile; productRef = 666E29BF2A46CAB700575467 /* KakaoSDKCommon */; };
 		66910E8129ED0FDF00BC821C /* EmailAuthProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66910E8029ED0FDF00BC821C /* EmailAuthProjectApp.swift */; };
 		66910E8329ED0FDF00BC821C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66910E8229ED0FDF00BC821C /* ContentView.swift */; };
 		66910E8529ED0FE000BC821C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66910E8429ED0FE000BC821C /* Assets.xcassets */; };
@@ -20,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		666E29C12A46CBAD00575467 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		66910E7D29ED0FDF00BC821C /* EmailAuthProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmailAuthProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66910E8029ED0FDF00BC821C /* EmailAuthProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailAuthProjectApp.swift; sourceTree = "<group>"; };
 		66910E8229ED0FDF00BC821C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -37,7 +41,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				666E29C02A46CAB700575467 /* KakaoSDKCommon in Frameworks */,
 				66B5A74A29ED39C600DC910C /* FirebaseAuth in Frameworks */,
+				666E29BC2A46CAB700575467 /* KakaoSDK in Frameworks */,
+				666E29BE2A46CAB700575467 /* KakaoSDKAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +71,7 @@
 		66910E7F29ED0FDF00BC821C /* EmailAuthProject */ = {
 			isa = PBXGroup;
 			children = (
+				666E29C12A46CBAD00575467 /* Info.plist */,
 				66910E8029ED0FDF00BC821C /* EmailAuthProjectApp.swift */,
 				66910E9329ED145100BC821C /* SignUpView.swift */,
 				66910E8229ED0FDF00BC821C /* ContentView.swift */,
@@ -102,6 +110,9 @@
 			name = EmailAuthProject;
 			packageProductDependencies = (
 				66B5A74929ED39C600DC910C /* FirebaseAuth */,
+				666E29BB2A46CAB700575467 /* KakaoSDK */,
+				666E29BD2A46CAB700575467 /* KakaoSDKAuth */,
+				666E29BF2A46CAB700575467 /* KakaoSDKCommon */,
 			);
 			productName = EmailAuthProject;
 			productReference = 66910E7D29ED0FDF00BC821C /* EmailAuthProject.app */;
@@ -133,6 +144,7 @@
 			mainGroup = 66910E7429ED0FDF00BC821C;
 			packageReferences = (
 				66B5A74829ED39C600DC910C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				666E29BA2A46CAB700575467 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */,
 			);
 			productRefGroup = 66910E7E29ED0FDF00BC821C /* Products */;
 			projectDirPath = "";
@@ -298,6 +310,7 @@
 				DEVELOPMENT_TEAM = RF42434X35;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EmailAuthProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -327,6 +340,7 @@
 				DEVELOPMENT_TEAM = RF42434X35;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EmailAuthProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -369,6 +383,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		666E29BA2A46CAB700575467 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kakao/kakao-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
 		66B5A74829ED39C600DC910C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
@@ -380,6 +402,21 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		666E29BB2A46CAB700575467 /* KakaoSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 666E29BA2A46CAB700575467 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDK;
+		};
+		666E29BD2A46CAB700575467 /* KakaoSDKAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 666E29BA2A46CAB700575467 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKAuth;
+		};
+		666E29BF2A46CAB700575467 /* KakaoSDKCommon */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 666E29BA2A46CAB700575467 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKCommon;
+		};
 		66B5A74929ED39C600DC910C /* FirebaseAuth */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 66B5A74829ED39C600DC910C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;

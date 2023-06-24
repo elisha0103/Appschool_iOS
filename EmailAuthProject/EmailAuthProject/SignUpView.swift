@@ -87,7 +87,7 @@ struct SignUpView: View {
                         isPasswordUnCorrectError = true
                     }
                     if passwordText.count >= 6 && passwordConfirmText == passwordText {
-                       viewModel.emailAuthSignUp(email: emailText, userName: nameText, password: passwordText)
+                        viewModel.emailAuthSignUp(email: emailText, userName: nameText, password: passwordText, completion: nil)
                         isShowingAlert = true
                     }
                 } label: {

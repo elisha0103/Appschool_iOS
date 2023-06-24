@@ -39,21 +39,35 @@ struct SignInView: View {
                     }
                 
                 //(1)
-                Button {
-                    signInProcessing = true
-                    viewModel.emailAuthSignIn(email: emailText, password: passwordText)
+                VStack {
+                    Button {
+                        signInProcessing = true
+                        viewModel.emailAuthSignIn(email: emailText, password: passwordText)
+                        
+                        
+                    } label: {
+                        Text("이메일 로그인")
+                            .frame(width: 150)
+                            .frame(height: 15)
+                            .padding()
+                            .foregroundColor(.white)
+                            .background(emailText.isEmpty || passwordText.isEmpty == true ? .gray : .red)
+                            .cornerRadius(10)
+                            
+                    }
+                    .disabled(emailText.isEmpty || passwordText.isEmpty ? true : false)
                     
-                    
-                } label: {
-                    Text("로그인")
-                        .padding()
-                        .foregroundColor(.white)
-                        .background(emailText.isEmpty || passwordText.isEmpty == true ? .gray : .red)
-                        .cornerRadius(10)
-                        .padding(.bottom, 40)
+                    Button {
+                        signInProcessing = true
+                        viewModel.kakaoAuthSignIn()
+                    } label: {
+                        Image("kakao_login_medium_narrow")
+                            .renderingMode(.original)
+                        
+                    }
                 }
-                .disabled(emailText.isEmpty || passwordText.isEmpty ? true : false)
-                
+                .padding(.bottom, 40)
+
                 HStack {
                     Text("아이디가 없으십니까?")
                     

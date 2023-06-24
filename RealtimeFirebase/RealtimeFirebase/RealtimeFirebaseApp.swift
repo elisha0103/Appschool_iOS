@@ -19,6 +19,7 @@ struct RealtimeFirebaseApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(CarStore())
         }
     }
 }

@@ -24,6 +24,7 @@
 		665B0CF2297E620000B6B956 /* AddNewCarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B0CF1297E620000B6B956 /* AddNewCarView.swift */; };
 		665B0CF4297E621700B6B956 /* CarDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B0CF3297E621700B6B956 /* CarDetailView.swift */; };
 		665B0CF6297E631E00B6B956 /* EditCarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B0CF5297E631E00B6B956 /* EditCarView.swift */; };
+		66653D0C2A1DB3CB00389B06 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66653D0B2A1DB3CB00389B06 /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		665B0CF1297E620000B6B956 /* AddNewCarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewCarView.swift; sourceTree = "<group>"; };
 		665B0CF3297E621700B6B956 /* CarDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDetailView.swift; sourceTree = "<group>"; };
 		665B0CF5297E631E00B6B956 /* EditCarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCarView.swift; sourceTree = "<group>"; };
+		66653D0B2A1DB3CB00389B06 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 			children = (
 				665B0CB8297E33DF00B6B956 /* RealtimeFirebaseApp.swift */,
 				665B0CBA297E33DF00B6B956 /* ContentView.swift */,
+				66653D0B2A1DB3CB00389B06 /* LoginView.swift */,
 				665B0CF1297E620000B6B956 /* AddNewCarView.swift */,
 				665B0CF3297E621700B6B956 /* CarDetailView.swift */,
 				665B0CF5297E631E00B6B956 /* EditCarView.swift */,
@@ -299,6 +302,7 @@
 				665B0CF2297E620000B6B956 /* AddNewCarView.swift in Sources */,
 				665B0CF6297E631E00B6B956 /* EditCarView.swift in Sources */,
 				665B0CF4297E621700B6B956 /* CarDetailView.swift in Sources */,
+				66653D0C2A1DB3CB00389B06 /* LoginView.swift in Sources */,
 				665B0CB9297E33DF00B6B956 /* RealtimeFirebaseApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
